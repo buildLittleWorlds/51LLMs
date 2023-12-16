@@ -1,4 +1,9 @@
 ---
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+
+import '../styles/global.css'
+
 const pageTitle = "About Me";
 
 const top_llm = {
@@ -35,9 +40,7 @@ const textCase = "uppercase"
 		  </style>
 	</head>
 	<body>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/blog/">Blog</a>
+		<Navigation />
         
         <h1>{pageTitle}</h1>
         <p>This site is a record of experiments with 51 AI language models by a reader and writer of English.</p>
@@ -55,5 +58,7 @@ const textCase = "uppercase"
 		<ul>
   			{skills.map((skill) => <li class="skill">{skill}</li>)}
 		</ul>
+
+		<Footer />
 	</body>
 </html>
