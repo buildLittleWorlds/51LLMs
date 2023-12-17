@@ -1,49 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const pageTitle = "About Me";
-
-const top_llm = {
-  name: "ChatGPT",
-  company: "OpenAI",
-  strength: "All-around best model",
-  people: ["Sam Altman", "Greg Brockman", "Mira Murati"],
-};
-
-const skills = ["writing", "coding", "images", "role-playing"];
-
-const skillColor = "navy"
-const fontWeight = "bold"
-const textCase = "uppercase"
+const pageTitle = "About 51 LLMs";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
 	<p>This site is a record of experiments with 51 AI language models by a reader and writer of English.</p>
 	<p>The best source of new knowledge about AIs as writers will come from readers and writers of natural language.</p>
-
-	<p>Here are a few facts about my current top model:</p>
-	<ul>
-		<li>My name is {top_llm.name}.</li>
-		<li>I live in {top_llm.company} and my strength is as a {top_llm.strength}.</li>
-		{top_llm.people.length >= 2 &&
-			<li>Two of my rulers are: {top_llm.people[0]} and {top_llm.people[1]}</li>
-		}
-	</ul>
-	<p>My skills are:</p>
-	<ul>
-		{skills.map((skill) => <li class="skill">{skill}</li>)}
-	</ul>
 <BaseLayout />
-
-
-<style define:vars={{skillColor, fontWeight, textCase}}>
-	h1 {
-	  color: purple;
-	  font-size: 4rem;
-	}
-	.skill {
-	  color: var(--skillColor);
-	  font-weight: var(--fontWeight);
-	  text-transform: var(--textCase);
-	}
-</style>
