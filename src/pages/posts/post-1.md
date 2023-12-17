@@ -1,30 +1,31 @@
 ---
-title: 'My First Blog Post'
-pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+title: 'Almost Random First List'
+pubDate: 2023-12-17
+description: 'This is the first list of 51 LLMs.'
+author: 'Daniel Plate'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'The full Astro logo.'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["AI", "list", "LLM"]
 ---
-# My First Blog Post
+# My First List of LLMs
 
-Published on: 2022-07-01
+Published on: 2023-12-17
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+This is my first - almost random - list of 51 large language models. Soon a quasi-semi-rigorous method of ranking the models will show up. For now, it's just a list of 51 LLMs.
 
-## What I've accomplished
+<ol>
+    <li>GPT-4</li>
+    <li>Perplexity</li>
+    <li>Claude-2.1</li>
+    <li>Mixtral-8x7b</li>
+    <li>Gemini Pro</li>
+    <li>Pi</li>
+    <li>pplx-70b</li>
+    <li>GPT-3.5</li>
+</ol>
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
-
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
-
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
 
 <ul>
     <li><a href="/posts/post-1/">Post 1</a></li>
