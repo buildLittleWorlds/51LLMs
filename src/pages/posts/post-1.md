@@ -1,16 +1,14 @@
 ---
-title: 'Almost Random First List'
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 'Almost Random First List of LLMs'
 pubDate: 2023-12-17
 description: 'This is the first list of 51 LLMs.'
 author: 'Daniel Plate'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
-tags: ["AI", "list", "LLM"]
+    url: /robot-bus-stop.png
+    alt: 'A robot at a bus stop.'
+tags: ["astro", "learning in public", "community"]
 ---
-# My First List of LLMs
-
-Published on: 2023-12-17
 
 This is my first - almost random - list of 51 large language models. Soon a quasi-semi-rigorous method of ranking the models will show up. For now, it's just a list of 51 LLMs.
 
